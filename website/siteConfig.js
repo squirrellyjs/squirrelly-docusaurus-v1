@@ -31,8 +31,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Used for publishing and more
-  projectName: "squirrelly-website",
-  organizationName: "nebrelbug",
+  projectName: "squirrelly.js.org",
+  organizationName: "squirrellyjs",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -54,8 +54,8 @@ const siteConfig = {
   headerIcon: "img/Squirrelly.svg",
   footerIcon: "img/Squirrelly.svg",
   favicon: "img/favicon.png",
-  docsSideNavCollapsible: true,
-  
+  // docsSideNavCollapsible: true,
+
   // Show documentation's last contributor's name.
   enableUpdateBy: true,
 
@@ -105,7 +105,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: "https://github.com/nebrelbug/squirrelly"
 };
 
 module.exports = siteConfig;

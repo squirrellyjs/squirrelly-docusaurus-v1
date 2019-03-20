@@ -44,7 +44,9 @@ class Footer extends React.Component {
               Template Syntax
             </a>
             <a href={this.docUrl("api.html", this.props.language)}>API</a>
-            <a href={this.pageUrl("demo.html", this.props.language)}>Demo (REPL)</a>
+            <a href={this.pageUrl("demo.html", this.props.language)}>
+              Demo (REPL)
+            </a>
           </div>
           <div>
             <h5>Community</h5>
@@ -74,7 +76,7 @@ class Footer extends React.Component {
               className="github-button"
               href={this.props.config.repoUrl}
               data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
+              data-count-href="/nebrelbug/squirrelly/stargazers"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub"

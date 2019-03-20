@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Get Started": ["getting-started"],
+    "First Category": ["template-syntax"],
+    "Second Category": ["api"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}

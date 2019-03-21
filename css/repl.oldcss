@@ -1,0 +1,135 @@
+/* This CSS, and the  associated HTML, are taken from the squirrelly repo, which is in turn based on the
+   doT.js website by Olado.
+   
+   Unused CSS in comments is either not relevant to the Docusaurus site or unused for now
+
+   */
+
+/*
+body {
+  background-color: #f4f4f4;
+  color: #555;
+  max-width: 800px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0 auto;
+  font-family: Helvetica Neue, arial, verdana;
+} 
+
+.smaller {
+  font-size: 0.8em;
+}
+
+textarea.defines {
+  height: 60px;
+}
+
+.templategroup.withdefs .definegroup {
+  display: block;
+}
+
+.templategroup.withdefs #template {
+  height: 90px;
+}
+
+.stripgroup {
+  padding-top: 8px;
+  width: 160px;
+  float: left;
+}
+
+#sampletabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sampletabs li {
+  float: left;
+  margin: 4px;
+  padding: 4px 8px;
+  background: #ddd;
+  cursor: pointer;
+}
+
+#sampletabs li.active {
+  background: #2b80ff;
+  color: #fff;
+}
+
+*/
+
+.replh2 {
+  text-shadow: 0 1px 2px #fff;
+  margin: 0;
+}
+
+.mainContainer {
+  padding: 0px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.replh2 span {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+h4 {
+  margin: 4px 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+textarea {
+  border: 1px solid lightgrey;
+  outline: none;
+  font-size: 14px;
+  width: 96%;
+  height: 210px;
+  padding: 10px;
+  text-align: left;
+  resize: vertical;
+}
+
+.templategroup,
+.datagroup,
+.functiongroup,
+.resultgroup {
+  width: 48%;
+  margin: 4px 2% 4px 0;
+  float: left;
+  min-width: 300px;
+}
+
+#function,
+#result {
+  background: #ddd;
+  height: 212px;
+  padding: 10px;
+  font-size: 14px;
+  overflow-y: auto;
+}
+
+#result {
+  white-space: pre;
+}
+
+.definegroup {
+  display: none;
+}
+
+@media all and (max-width: 740px) {
+  .templategroup,
+  .datagroup,
+  .functiongroup,
+  .resultgroup {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  pre {
+    overflow-x: scroll;
+  }
+}

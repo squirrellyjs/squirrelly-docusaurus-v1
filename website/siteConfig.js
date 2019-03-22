@@ -23,8 +23,9 @@ const users = [
 const siteConfig = {
   title: "Squirrelly" /* title for your website */,
   tagline: "A fast, lighweight, and simple JavaScript template engine",
-  url: "https://squirrelly.js.org" /* your website url */,
-  baseUrl: "/" /* base url for your project */,
+  // url: "https://squirrelly.js.org" /* your website url */
+  url: "https://squirrellyjs.github.io",
+  baseUrl: "/squirrelly.js.org/" /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
